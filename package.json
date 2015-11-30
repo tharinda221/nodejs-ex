@@ -4,9 +4,9 @@
   "description": "Node.js sample app for OpenShift 3",
   "main": "server.js",
   "dependencies": {
-      "express": "*",
-      "mongodb": "*",
-      "ejs": "*"
+    "express": "~4.13.3",
+    "mongodb": "*",
+    "ejs": "*"
   },
   "engine": {
     "node": "*",
@@ -20,7 +20,7 @@
     "url": "http://github.com/openshift/nodejs-ex.git"
   },
   "author": "Steve Speicher <sspeiche@gmail.com>",
-  "license": "",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "http://github.com/openshift/nodejs-ex/issues"
   },
